@@ -1,0 +1,2 @@
+import { FLAP, isLaunchConfigured } from "@/lib/flap";
+export async function GET(){return Response.json({brand:"IDOLPAD",chain:{id:FLAP.chainId,name:"BNB Smart Chain",portal:FLAP.portal},providers:{character:false,video:false},features:{launchConfigured:isLaunchConfigured(),localWrites:process.env.IDOLPAD_ALLOW_LOCAL_WRITES==="true"},safety:{aiLabels:true,receiptVerification:true,failClosed:true}})}

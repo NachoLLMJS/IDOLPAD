@@ -1,0 +1,1 @@
+export async function GET(req:Request){const wallet=new URL(req.url).searchParams.get("wallet");if(!wallet)return Response.json({freeLeft:0,nextPriceUsd:null,ready:false,reason:"Connect and authenticate a wallet"});return Response.json({freeLeft:0,nextPriceUsd:null,ready:false,reason:"Media provider and signed wallet sessions are not configured"})}
