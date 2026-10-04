@@ -3,6 +3,7 @@
 Independent BNB Chain application for creating original AI idols, preparing short-form media, and launching an idol token through Flap.
 
 Production: https://idolpad.vercel.app
+Source: https://github.com/NachoLLMJS/IDOLPAD
 
 The implementation reproduces a public product category and workflow. It does not copy Higgspad source code, trademarks, private prompts, characters, or proprietary media.
 
